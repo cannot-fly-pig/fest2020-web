@@ -21,16 +21,18 @@
 					<img :src="count1" alt="1の位" class="count-image">
 					&nbsp;	日
 				</div>
-				<h1 class="count-comming">We're comming soon...</h1>
+				<div class="wrap-commingimage">
+					<img src="../assets/img/comingsoon.png" alt="comming soon" class="comming-image">
+				</div>
 			</div>
 		</section>
 
 		<section class="wrap-concept">
 			<h1 class="concept-h1">Concept</h1>
 			<p>
-				“vivid” という言葉には「生き生きとした」「鮮やかな」という意味が込められていす <br>
-				文化祭を作る生徒や訪れる皆さんが生き生きと精力善用し、それぞれの活動や体験を通じて描くそれぞれ違った色が自他共栄することで<br>
-				ひとつの鮮やかな文化祭を織りなすことを願ったテーマです<br>
+				“vivid” という言葉には、「生き生きとした」という意味があます <br>
+				活動する生徒やご来場になる皆さんなど、全ての人にとって活力のあふれた文化祭になることを願ったテーマです <br>
+				また、もうひとつの「鮮やかな」という意味は、文化祭を訪れる全員が織りなす個性的な色が溶け合い、ひとつの鮮やかな文化祭が作られることを象徴しています
 			</p>
 		</section>
 
@@ -121,18 +123,15 @@
 		<section class="footer">
 			<footer id="the-footer">
 				<div class="info">
-					<p class="el">74rd Nada School Festival</p>
-					<p class="el">vivid</p>
-					<div class="spacer el"></div>
-					<p class="el">2020.05.02–0</p>
-					<div class="spacer el"></div>
-					<div class="links">
-						<a href="https://twitter.com/Nada_festival" target="_blank" rel="noopener" aria-label="Twitter" class="el">Tw</a>
-						<a href="https://www.instagram.com/nadafestival_official/" target="_blank" rel="noopener" aria-label="Instagram" class="el">IG</a>
-						<a href="https://www.facebook.com/NadaSchoolFestival/" target="_blank" rel="noopener" aria-label="Facebook" class="el">Fb</a>
+					<div class="el">74rd Nada School Festival</div>
+					<div class="el">vivid</div>
+					<div class="el">2020.05.02–0</div>
+					<div class="el">
+						<a href="https://twitter.com/Nada_festival" target="_blank" rel="noopener" aria-label="Twitter">Tw</a>
+						<a href="https://www.instagram.com/nadafestival_official/" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+						<a href="https://www.facebook.com/NadaSchoolFestival/" target="_blank" rel="noopener" aria-label="Facebook">Fb</a>
 					</div>
-					<div class="spacer el"></div>
-					<p class="el">Design Team © 2020</p>
+					<div class="el">Design Team © 2020</div>
 				</div>
 			</footer>
 		</section>
@@ -169,7 +168,7 @@ export default {
 			this.count1 = require(`../assets/count/ctdwn-${diff}.svg`)
 		}else{
 			this.count10 = require(`../assets/count/ctdwn-${Math.floor(diff/10)}.svg`)
-			this.count1 = require(`../assets/count/ctdwn-0.svg`)
+			this.count1 = require(`../assets/count/ctdwn-${diff%10}.svg`)
 		}
 	}
 }
@@ -249,12 +248,14 @@ export default {
 	font-size: 2rem;
 }
 
-.count-comming {
-	text-align: center;
+.comming-image {
+	width: 60%;
 	padding-top: 3rem;
-	font-size: 2rem;
-	color: #cccccc;
-	font-style: italic;
+}
+
+.wrap-commingimage{
+	width: 100%;
+	text-align: center;
 }
 
 .count-suji {
@@ -271,7 +272,7 @@ export default {
 	background-image: url("../assets/logo/clipped.svg");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 100%;
+	background-size: 75%;
 	padding-left: 10%;
 	color: #595757;
 	height: 40vh;
@@ -368,12 +369,13 @@ ul {
 
 .footer {
 	grid-column: 23 span;
-	height: 60vh;
+	height: 30vh;
 }
 
 #the-footer {
 	display: flex;
-	justify-content: flex-end;
+	align-items: center;
+	justify-content: center;
 	height: 100%;
 	width: 100%;
 	background-color: #000;
@@ -381,27 +383,24 @@ ul {
 }
 
 .info {
-	padding-top: 6rem;
-	padding-right: 10%;
-	text-align: right;
-	width: 100%;
+	display: flex;
+	flex-direction: row;
+	width: 70%;
+	align-items: center;
+	justify-content: space-around;
 }
 
-.links > a:link {
+.el {
+	margin: 0,auto;
+}
+
+.el > a:link {
 	color: #7f7f7f;
 }
 
-.links > a:visited {
+.el > a:visited {
 	color: #7f7f7f;
 }
 
-.spacer {
-	width: 15px;
-	height: 3px;
-	margin: 12px 0;
-	margin-left: auto;
-	background-color: #7f7f7f;
-	left: 10%;
-}
 
 </style>
