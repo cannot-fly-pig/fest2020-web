@@ -5,7 +5,9 @@
 		</div>
 
 		<section class="wrap-image">
-			<img src="../assets/img/top_05.png" alt="背景画像" class="bg-image">
+			<img src="@/assets/img/top_05.png" alt="背景画像" class="bg-image-pc">
+			<img src="@/assets/img/top_04.png" alt="背景画像" class="bg-image-phone">
+			<img src="@/assets/logo/vi_published_t_13.svg" alt="ロゴ画像" class="logo-image-phone">
 			<div class="title">
 				<h1><span class="title-main">第74回灘校文化祭</span></h1>
 				<h2><span class="title-sub">2020.05.02 (土)</span> <span class="title-sub">2020.05.02 (日)</span></h2> <h2><span class="title-sub">9:00-15:00</span></h2>
@@ -22,7 +24,7 @@
 					&nbsp;	日
 				</div>
 				<div class="wrap-commingimage">
-					<img src="../assets/img/comingsoon.png" alt="comming soon" class="comming-image">
+					<img src="@/assets/img/comingsoon.png" alt="comming soon" class="comming-image">
 				</div>
 			</div>
 		</section>
@@ -164,243 +166,20 @@ export default {
 		}
 
 		if (diff < 10) {
-			this.count10 = require(`../assets/count/ctdwn-0.svg`)
-			this.count1 = require(`../assets/count/ctdwn-${diff}.svg`)
+			this.count10 = require(`@/assets/count/ctdwn-0.svg`)
+			this.count1 = require(`@/assets/count/ctdwn-${diff}.svg`)
 		}else{
-			this.count10 = require(`../assets/count/ctdwn-${Math.floor(diff/10)}.svg`)
-			this.count1 = require(`../assets/count/ctdwn-${diff%10}.svg`)
+			this.count10 = require(`@/assets/count/ctdwn-${Math.floor(diff/10)}.svg`)
+			this.count1 = require(`@/assets/count/ctdwn-${diff%10}.svg`)
 		}
 	}
 }
 </script>
 
 <style>
-.container {
-	display: grid;
-  grid-template-columns: repeat(24, 1fr);
-}
+	@import "@/assets/css/index/phone.css"
+</style>
 
-.bg-image {
-	width: 100%;
-	height: 100vh;
-	object-fit: cover;
-	left: 0;
-	top: 0;
-}
-
-.wrap-image {
-	padding: 0 !important;
-	margin: 0 !important;
-	grid-column: 23 span;
-}
-
-.wrap-toolbar {
-	padding: 0 !important;
-	margin: 0 !important;
-	background-color: #dfdfdf;
-	grid-column: 1 span;
-	grid-row: 7 span;
-}
-
-.wrap-image > .title {
-	position: absolute;
-	left: 8%;
-	bottom: 12%;
-	color: #595757;
-}
-
-.title-main {
-	font-size: 3rem;
-	background-color: white;
-	padding: 0.3rem;
-}
-
-.title-sub {
-	background-color: white;
-	padding: 0.3rem;
-}
-
-.title > h2 {
-	margin-top: 1rem;
-}
-
-.wrap-count {
-	grid-column: 23 span;
-	height: 100vh;
-}
-
-.count {
-	background-color: #343434;
-	background-image: url("../assets/img/Countdown.png");
-	background-repeat: no-repeat;
-	background-position: top;
-	background-size: 120%;
-	height: 80%;
-	width: 80%;
-	margin-left: 10%;
-	margin-top: 5%;
-	color: white
-}
-
-.count-made {
-	text-align: center;
-	padding-top: 3rem;
-	font-size: 2rem;
-}
-
-.comming-image {
-	width: 60%;
-	padding-top: 3rem;
-}
-
-.wrap-commingimage{
-	width: 100%;
-	text-align: center;
-}
-
-.count-suji {
-	padding-top: 3rem;
-	text-align: center;
-	font-size: 2.5rem;
-}
-.count-image {
-	width: 15%;
-}
-
-.wrap-concept {
-	grid-column: 23 span;
-	background-image: url("../assets/logo/clipped.svg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 75%;
-	padding-left: 10%;
-	color: #595757;
-	height: 40vh;
-	margin-bottom: 10%;
-}
-
-.wrap-concept > h1 {
-	margin-bottom: 1rem;
-	font-size: 3rem;
-}
-
-.wrap-concept > p {
-	line-height: 2.5rem;
-	font-size: 1.2rem;
-}
-
-.wrap-youtube {
-	grid-column: 23 span;
-	text-align: center;
-}
-
-.youtube {
-	width: 60%;
-	height: 60vh;
-}
-
-.wrap-table {
-	grid-column: 23 span;
-	padding-left: 10%;
-	color: #595757;
-	background-image: url("../assets/img/top_06.png");
-	background-size: 100% auto;
-	padding-bottom: 15vh;
-}
-
-.wrap-table > .title {
-	font-size: 3rem;
-	padding-top: 10%;
-}
-
-
-li{
-	margin-bottom: 2rem;
-}
-
-.columns {
-	display: flex;
-	flex-direction: row;
-	margin-top: 3em;
-	margin-left: 5%;
-}
-
-.column {
-	display: flex;
-	width: 45%;
-}
-
-.sidebar {
-	width: 2px;
-	height: 100%;
-	background-color: #666666;
-}
-
-.sub-title {
-	color: #1F6DFF;
-	font-weight: bold;
-	margin-bottom: 1rem;
-}
-
-.main {
-	font-size: 2rem;
-	font-weight: bold;
-}
-
-.sub {
-	font-weight: bold;
-	margin-top: 0.8rem;
-	margin-bottom: 0.8rem;
-	color: #666666;
-}
-
-.jp {
-	color: #666666;
-	margin-left: 2rem;
-}
-
-.line {
-	height: 3.5rem;
-}
-
-ul {
-	list-style: none;
-}
-
-.footer {
-	grid-column: 23 span;
-	height: 30vh;
-}
-
-#the-footer {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100%;
-	width: 100%;
-	background-color: #000;
-	color: #7f7f7f;
-}
-
-.info {
-	display: flex;
-	flex-direction: row;
-	width: 70%;
-	align-items: center;
-	justify-content: space-around;
-}
-
-.el {
-	margin: 0,auto;
-}
-
-.el > a:link {
-	color: #7f7f7f;
-}
-
-.el > a:visited {
-	color: #7f7f7f;
-}
-
-
+<style>
+	@import "@/assets/css/index/pc.css"
 </style>
