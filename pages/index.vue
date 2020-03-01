@@ -5,12 +5,18 @@
 		</div>
 
 		<section class="wrap-image">
-			<img src="@/assets/img/top_05.png" alt="背景画像" class="bg-image-pc">
-			<img src="@/assets/img/top_04.png" alt="背景画像" class="bg-image-phone">
 			<img src="@/assets/logo/vi_published_t_13.svg" alt="ロゴ画像" class="logo-image-phone">
 			<div class="title">
-				<h1><span class="title-main">第74回灘校文化祭</span></h1>
-				<h2><span class="title-sub">2020.05.02 (土)</span> <span class="title-sub">2020.05.02 (日)</span></h2> <h2><span class="title-sub">9:00-15:00</span></h2>
+				<h1><span class="title-main">第<span class="black">74</span>回灘校文化祭</span></h1>
+				<div class="title-date">
+					<h2>
+						<span class="title-sub">2020.05.02 (土)</span> 
+						<span class="title-sub">2020.05.03 (日)</span>
+					</h2> 
+				</div>
+				<div class="title-time">
+					<p><span class="title-sub">9:00-15:30</span></p>
+				</div>
 			</div>
 		</section>
 
@@ -32,8 +38,8 @@
 		<section class="wrap-concept">
 			<h1 class="concept-h1">Concept</h1>
 			<p>
-				“vivid” という言葉には、「生き生きとした」という意味があます <br>
-				活動する生徒やご来場になる皆さんなど、全ての人にとって活力のあふれた文化祭になることを願ったテーマです <br>
+			“vivid” という言葉には、「生き生きとした」という意味があります　
+			活動する生徒やご来場になる皆さんなど、全ての人にとって活力のあふれた文化祭になることを願ったテーマです　
 				また、もうひとつの「鮮やかな」という意味は、文化祭を訪れる全員が織りなす個性的な色が溶け合い、ひとつの鮮やかな文化祭が作られることを象徴しています
 			</p>
 		</section>
@@ -71,7 +77,7 @@
 							<p class="main">vivid</p>
 						</li>
 						<li>
-							<p class="sub-title">sns</p>
+							<p class="sub-title">SNS</p>
 							<p class="sub">最新情報をチェック!</p>
 							<div class="line">
 								<a href="https://twitter.com/Nada_festival" target="_blank" rel="noopener" class="main">Twitter</a>
@@ -125,9 +131,9 @@
 		<section class="footer">
 			<footer id="the-footer">
 				<div class="info">
-					<div class="el">74rd Nada School Festival</div>
-					<div class="el">vivid</div>
-					<div class="el">2020.05.02–0</div>
+					<div class="el">74th Nada School Festival</div>
+					<div class="el">“vivid”</div>
+					<div class="el">2020.05.02–05.03</div>
 					<div class="el">
 						<a href="https://twitter.com/Nada_festival" target="_blank" rel="noopener" aria-label="Twitter">Tw</a>
 						<a href="https://www.instagram.com/nadafestival_official/" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
@@ -182,4 +188,15 @@ export default {
 
 <style>
 	@import "@/assets/css/index/pc.css"
+</style>
+
+<style>
+	@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700,900|Roboto:400,700,900&display=swap&subset=japanese');
+</style>
+
+<style>
+	body {
+		overflow-x: hidden;
+		font-family: 'Roboto', 'Noto Sans JP';
+	}
 </style>

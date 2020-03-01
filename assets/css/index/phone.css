@@ -1,9 +1,10 @@
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 799px) {
 	.bg-image-pc {
 		display: none;
 	}
 
 	.bg-image-phone {
+		display: none;
 		height: 100vh;
 		width: 100vw;
 		object-fit: cover;
@@ -11,15 +12,18 @@
 	}
 
 	.logo-image-phone {
-		position: absolute;
 		width: 100%;
 		height: auto;
-		left: 0;
-		top: 5%;
+		margin-top: 5%;
 	}
 
 	.wrap-image {
+		height: 100vh;
 		margin-bottom: 2vh;
+		background-image: url("../../../assets/img/top_07.jpg");
+		background-repeat: no-repeat;
+		background-position: 45% top;
+		background-size: auto 100%;
 	}
 
 	.wrap-toolbar {
@@ -27,18 +31,18 @@
 	}
 
 	.wrap-image > .title {
-		position: absolute;
 		width: 100%;
-		left: 0;
-		top: 60%;
-		text-align: center;
 		color: #595757;
+		text-align: start;
+		padding-left: 10%;
+		line-height: 3rem;
 	}
 
 	.title-main {
-		font-size: 2rem;
+		font-size: 1.5rem;
 		background-color: white;
 		padding: 0.3rem;
+		font-weight: 700;
 	}
 
 	.title-sub {
@@ -49,6 +53,7 @@
 
 	.title > h2 {
 		margin-top: 1rem;
+		font-weight: 700;
 	}
 
 	.wrap-count {
@@ -92,10 +97,10 @@
 	}
 
 	.wrap-concept {
-		background-image: url("../../../assets/logo/clipped.svg");
+		background-image: url("../../../assets/logo/concept.svg");
 		background-repeat: no-repeat;
 		background-position: center;
-		background-size: 75%;
+		background-size: contain;
 		color: #595757;
 		padding-left: 5%;
 		padding-right: 5%;
@@ -106,25 +111,30 @@
 		margin-top: 3rem;
 		margin-bottom: 1rem;
 		font-size: 1.8rem;
+		font-weight: 900;
 	}
 
 	.wrap-concept > p {
 		line-height: 1.5rem;
-		font-size: 0.8rem;
 	}
 
 	.wrap-youtube {
 		text-align: center;
+		height: auto;
 	}
 
 	.youtube {
-		width: 60%;
-		height: auto;
+		width: 80%;
+		height: 30vh;
 	}
 
 	.wrap-table {
 		padding-left: 5%;
+		padding-right: 5%;
 		color: #595757;
+		background-image: url("../../../assets/img/top_06.png");
+		background-repeat: no-repeat;
+		background-position: bottom;
 		background-size: 100% auto;
 		padding-bottom: 15vh;
 	}
@@ -132,6 +142,7 @@
 	.wrap-table > .title {
 		font-size: 1.8rem;
 		padding-top: 10%;
+		margin-top: 1.5rem;
 	}
 
 
@@ -162,23 +173,27 @@
 		color: #1F6DFF;
 		font-weight: bold;
 		margin-bottom: 1rem;
+		text-transform: capitalize;
+		margin-bottom: 1.5rem;
 	}
 
 	.main {
 		font-size: 1.8rem;
-		font-weight: bold;
+		font-weight: 900;
 	}
 
 	.sub {
 		font-weight: bold;
 		margin-top: 0.8rem;
-		margin-bottom: 0.8rem;
+		margin-bottom: 1rem;
 		color: #666666;
 	}
 
 	.jp {
 		color: #666666;
+		font-size: 1.5rem;
 		margin-left: 2rem;
+		font-size: 1.5rem;
 	}
 
 	.line {
