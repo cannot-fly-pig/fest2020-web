@@ -109,8 +109,8 @@
 		background-position: center;
 		background-size: contain;
 		color: #595757;
-		padding-left: 5%;
-		padding-right: 5%;
+		padding-left: 10%;
+		padding-right: 10%;
 		margin-bottom: 3rem;
 	}
 
@@ -139,7 +139,7 @@
 		padding-left: 5%;
 		padding-right: 5%;
 		color: #595757;
-		background-image: url("../../../assets/img/top_06.png");
+		background-image: url("../../../assets/img/top_06.jpg");
 		background-repeat: no-repeat;
 		background-position: bottom;
 		background-size: 100% auto;
@@ -181,17 +181,24 @@
 		font-weight: bold;
 		margin-bottom: 1rem;
 		text-transform: capitalize;
-		margin-bottom: 1.5rem;
 	}
 
 	.main {
 		font-size: 1.8rem;
-		font-weight: 900;
+		font-weight: 700;
+		margin-bottom: 1.5rem;
+	}
+
+	.time {
+		margin-bottom: 0;
+	}
+	
+	.kaijyou {
+		margin-bottom: 2rem !important;
 	}
 
 	.sub {
 		font-weight: bold;
-		margin-top: 0.8rem;
 		margin-bottom: 1rem;
 		color: #666666;
 	}

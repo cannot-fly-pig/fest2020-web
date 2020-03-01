@@ -27,7 +27,7 @@
 	.wrap-image {
 		grid-column: 23 span;
 		height: 100vh;
-		background-image: url("../../../assets/img/top_05.png");
+		background-image: url("../../../assets/img/top_07.jpg");
 		background-repeat: no-repeat;
 		background-position: left center;
 		background-size: cover;
@@ -154,7 +154,7 @@
 		grid-column: 23 span;
 		padding-left: 10%;
 		color: #595757;
-		background-image: url("../../../assets/img/top_06.png");
+		background-image: url("../../../assets/img/top_06.jpg");
 		background-size: 100% auto;
 	}
 

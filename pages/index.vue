@@ -64,8 +64,8 @@
 		        </li>
 		        <li>
 							<p class="sub-title">time</p>
-							<p class="main">9:00–15:30</p>
-							<p class="sub">開場 9:00</p>
+							<p class="main time">9:00–15:30</p>
+							<p class="sub kaijyou">開場 9:00</p>
 		        </li>
 		      </ul>
 			  </div>
@@ -82,9 +82,6 @@
 							<div class="line">
 								<a href="https://twitter.com/Nada_festival" target="_blank" rel="noopener" class="main">Twitter</a>
 			        </div>
-							<div class="line">
-								<a href="https://www.instagram.com/nadafestival_official/" target="_blank" rel="noopener" class="main">Instagram</a>
-							</div>
 							<div class="line">
 								<a href="https://www.facebook.com/NadaSchoolFestival/" target="_blank" rel="noopener" class="main">Facebook</a>
 							</div>
