@@ -1,5 +1,9 @@
 @media screen and (min-width: 800px) {
 
+	.text {
+		display: inline-block;
+	}
+
 	.container {
 		display: grid;
 		grid-template-columns: repeat(24, 1fr);

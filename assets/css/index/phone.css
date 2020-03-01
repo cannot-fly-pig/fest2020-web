@@ -1,4 +1,9 @@
 @media screen and (max-width: 799px) {
+
+	.text {
+		display: inline-block;
+	}
+
 	.bg-image-pc {
 		display: none;
 	}
@@ -13,7 +18,7 @@
 
 	.logo-image-phone {
 		width: 100%;
-		height: auto;
+		height: 60%;
 		margin-top: 5%;
 	}
 
@@ -31,11 +36,13 @@
 	}
 
 	.wrap-image > .title {
+		position: absolute;
 		width: 100%;
 		color: #595757;
 		text-align: start;
 		padding-left: 10%;
 		line-height: 3rem;
+		top: 70%;
 	}
 
 	.title-main {
