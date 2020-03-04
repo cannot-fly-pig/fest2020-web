@@ -83,6 +83,9 @@
 								<a href="https://twitter.com/Nada_festival" target="_blank" rel="noopener" class="main">Twitter</a>
 			        </div>
 							<div class="line">
+								<a href="https://www.instagram.com/nada_schoolfestival/" target="_blank" rel="noopener" class="main">Instagram</a>
+							</div>
+							<div class="line">
 								<a href="https://www.facebook.com/NadaSchoolFestival/" target="_blank" rel="noopener" class="main">Facebook</a>
 							</div>
 						</li>
@@ -133,7 +136,7 @@
 					<div class="el">2020.05.02–05.03</div>
 					<div class="el">
 						<a href="https://twitter.com/Nada_festival" target="_blank" rel="noopener" aria-label="Twitter">Tw</a>
-						<a href="https://www.instagram.com/nadafestival_official/" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+						<a href="https://www.instagram.com/nada_schoolfestival/" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
 						<a href="https://www.facebook.com/NadaSchoolFestival/" target="_blank" rel="noopener" aria-label="Facebook">Fb</a>
 					</div>
 					<div class="el">Design Team © 2020</div>
@@ -185,10 +188,6 @@ export default {
 
 <style>
 	@import "@/assets/css/index/pc.css"
-</style>
-
-<style>
-	@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700,900|Roboto:400,700,900&display=swap&subset=japanese');
 </style>
 
 <style>

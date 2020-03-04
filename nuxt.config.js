@@ -16,7 +16,8 @@ export default {
       {
         rel: 'apple-touch-icon-precomposed',
         href: './static/1024x1024.png'
-      }
+      },
+			{ rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700,900|Roboto:400,700,900&display=swap&subset=japanese' }
     ]
   },
   /*
