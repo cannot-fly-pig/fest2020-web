@@ -20,6 +20,7 @@
 			</div>
 		</section>
 
+		<!--
 		<section class="wrap-count">
 			<div class="count">
 				<h1 class="count-made">第74回灘校文化祭開催まで</h1>
@@ -34,6 +35,7 @@
 				</div>
 			</div>
 		</section>
+		-->
 
 		<section class="wrap-concept">
 			<h1 class="concept-h1">Concept</h1>
@@ -48,6 +50,7 @@
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/FcUa_ghLW-M" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="youtube"/>
 		</section>
 
+		<!--
 		<section class="wrap-table">
 			<h2 class="title">開催要項</h2>
 			<div class="columns">
@@ -127,6 +130,7 @@
 				</div>
 			</div>
 		</section>
+		-->
 
 		<section class="footer">
 			<footer id="the-footer">
