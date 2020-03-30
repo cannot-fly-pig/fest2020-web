@@ -36,6 +36,14 @@
 			</div>
 		</section>
 		-->
+		<section class="wrap-notice">
+			<h1 class="notice-h1">お知らせ</h1>
+			<p>
+				この度、5月2日～5月3日に開催を予定して<span class="text">おりました</span><br>
+				第74回灘校文化祭 “vivid” の開催中止を決定<span class="text">いたしました。</span><br>
+				今後、準備してきた成果をどのように発表するかは<span class="text">検討中です。</span>
+			</p>
+		</section>
 
 		<section class="wrap-concept">
 			<h1 class="concept-h1">Concept</h1>

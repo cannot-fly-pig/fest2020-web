@@ -114,6 +114,30 @@
 		width: 15%;
 	}
 
+	.wrap-notice {
+		grid-column: 23 span;
+		padding-left: 10%;
+		padding-right: 10%;
+		color: #a94442;
+		height: 40vh;
+		margin-top: 5%;
+		border: solid 2px #a94442;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.wrap-notice > h1 {
+		margin-bottom: 1rem;
+		font-size: 3rem;
+		font-weight: 900;
+	}
+
+	.wrap-notice > p {
+		line-height: 2.5rem;
+		font-size: 1.2rem;
+	}
+
 	.wrap-concept {
 		grid-column: 23 span;
 		background-image: url("../../../assets/logo/concept.svg");
