@@ -1,0 +1,4 @@
+User-agent:*
+Disallow:
+
+Sitemap:https://fest.nada-sc.jp/sitemap.xml

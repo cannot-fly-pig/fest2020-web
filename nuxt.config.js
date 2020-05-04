@@ -5,11 +5,20 @@ export default {
   ** Headers of the page
   */
   head: {
+		htmlAttrs: {
+			prefix: 'og: http://ogp.me/ns#'
+		},
     title: "vivid | 第74回灘校文化祭",
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: '“vivid” という言葉には、「生き生きとした」という意味があります\n 活動する生徒やご来場になる皆さんなど、全ての人にとって活力のあふれた文化祭になることを願ったテーマです \n また、もうひとつの「鮮やかな」という意味は、文化祭を訪れる全員が織りなす個性的な色が溶け合い、ひとつの鮮やかな文化祭が作られることを象徴しています' },
+			{ hid: 'og:site_name', property: 'og:site_name', content: 'vivid | 第74回灘校文化祭' },
+			{ hid: 'og:type', property: 'og:type', content: 'website' },
+			{ hid: 'og:url', property: 'og:url', content: 'https://fest.neda-sc.jp/2020' },
+			{ hid: 'og:title', property: 'og:title', content: 'vivid | 第74回灘校文化祭' },
+      { hid: 'og:description', name: 'og:description', content: '“vivid” という言葉には、「生き生きとした」という意味があります\n 活動する生徒やご来場になる皆さんなど、全ての人にとって活力のあふれた文化祭になることを願ったテーマです \n また、もうひとつの「鮮やかな」という意味は、文化祭を訪れる全員が織りなす個性的な色が溶け合い、ひとつの鮮やかな文化祭が作られることを象徴しています' },
+			
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -43,6 +52,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+		"@nuxtjs/sitemap"
   ],
   /*
   ** Build configuration
@@ -55,7 +65,7 @@ export default {
     }
   },
 	server: {
-    port: 8000, // デフォルト: 3000
-    host: '192.168.1.11' // デフォルト: localhost
+    port: 3000, // デフォルト: 3000
+    host: 'localhost' // デフォルト: localhost
   }
 }

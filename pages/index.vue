@@ -1,13 +1,11 @@
 <template>
   <div class="container">
 
-		<div class="wrap-toolbar">
-		</div>
-
 		<section class="wrap-image">
 			<img src="@/assets/logo/vi_published_t_13.svg" alt="ロゴ画像" class="logo-image-phone">
 			<div class="title">
 				<h1><span class="title-main">第<span class="black">74</span>回灘校文化祭</span></h1>
+		<!--
 				<div class="title-date">
 					<h2>
 						<span class="title-sub">2020.05.02 (土)</span> 
@@ -17,6 +15,7 @@
 				<div class="title-time">
 					<p><span class="title-sub">9:00-15:30</span></p>
 				</div>
+		-->
 			</div>
 		</section>
 
@@ -139,27 +138,11 @@
 			</div>
 		</section>
 		-->
-
-		<section class="footer">
-			<footer id="the-footer">
-				<div class="info">
-					<div class="el">74th Nada School Festival</div>
-					<div class="el">“vivid”</div>
-					<div class="el">2020.05.02–05.03</div>
-					<div class="el">
-						<a href="https://twitter.com/Nada_festival" target="_blank" rel="noopener" aria-label="Twitter">Tw</a>
-						<a href="https://www.instagram.com/nada_schoolfestival/" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
-						<a href="https://www.facebook.com/NadaSchoolFestival/" target="_blank" rel="noopener" aria-label="Facebook">Fb</a>
-					</div>
-					<div class="el">Design Team © 2020</div>
-				</div>
-			</footer>
-		</section>
-
   </div>
 </template>
 
 <script>
+
 export default {
   components: {},
 	data() {
@@ -203,8 +186,4 @@ export default {
 </style>
 
 <style>
-	body {
-		overflow-x: hidden;
-		font-family: 'Roboto', 'Noto Sans JP';
-	}
 </style>
