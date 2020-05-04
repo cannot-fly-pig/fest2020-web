@@ -54,7 +54,15 @@ export default {
   modules: [
 		"@nuxtjs/sitemap"
   ],
-  /*
+	/*
+   ** Generate sitemap.xml
+	*/
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'https://fest.nada-sc.jp/2020',
+    cacheTime: 1000 * 60 * 15,
+    gzip: false,
+  }, /*
   ** Build configuration
   */
   build: {
