@@ -3,7 +3,6 @@
 		<div class="info">
 			<div class="el">74th Nada School Festival</div>
 			<div class="el">“vivid”</div>
-			<div class="el">2020.05.02–05.03</div>
 			<div class="el">
 				<a href="https://twitter.com/Nada_festival" target="_blank" rel="noopener" aria-label="Twitter">Tw</a>
 				<a href="https://www.instagram.com/nada_schoolfestival/" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
