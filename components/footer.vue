@@ -1,7 +1,7 @@
 <template>
 	<footer id="the-footer">
 		<div class="info">
-			<div class="el">74th Nada School Festival</div>
+			<div class="el">2020 Nada School Festival</div>
 			<div class="el">“vivid”</div>
 			<div class="el">
 				<a href="https://twitter.com/Nada_festival" target="_blank" rel="noopener" aria-label="Twitter">Tw</a>
