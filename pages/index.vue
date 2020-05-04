@@ -4,7 +4,7 @@
 		<section class="wrap-image">
 			<img src="@/assets/logo/vi_published_t_13.svg" alt="ロゴ画像" class="logo-image-phone">
 			<div class="title">
-				<h1><span class="title-main">第<span class="black">2020</span>回灘校文化祭</span></h1>
+				<h1><span class="title-main"><span class="black">2020</span>灘校文化祭</span></h1>
 		<!--
 				<div class="title-date">
 					<h2>
