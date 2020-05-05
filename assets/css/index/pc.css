@@ -33,12 +33,12 @@
 	.wrap-image > .title {
 		position: absolute;
 		left: 8%;
-		bottom: 14%;
+		bottom: 8%;
 		color: #595757;
 	}
 
 	.title-main {
-		font-size: 3rem;
+		font-size: 2.5rem;
 		background-color: white;
 		padding: 0.3rem;
 		font-weight: 900;
@@ -105,6 +105,8 @@
 	.wrap-notice {
 		padding-left: 10%;
 		padding-right: 10%;
+		margin-left: 10%;
+		margin-right: 10%;
 		color: #a94442;
 		height: 40vh;
 		margin-top: 5%;

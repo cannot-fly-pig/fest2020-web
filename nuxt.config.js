@@ -18,7 +18,7 @@ export default {
 			{ hid: 'og:url', property: 'og:url', content: 'https://fest.neda-sc.jp/2020' },
 			{ hid: 'og:title', property: 'og:title', content: 'vivid | 第74回灘校文化祭' },
       { hid: 'og:description', name: 'og:description', content: '“vivid” という言葉には、「生き生きとした」という意味があります\n 活動する生徒やご来場になる皆さんなど、全ての人にとって活力のあふれた文化祭になることを願ったテーマです \n また、もうひとつの「鮮やかな」という意味は、文化祭を訪れる全員が織りなす個性的な色が溶け合い、ひとつの鮮やかな文化祭が作られることを象徴しています' },
-			
+			{ hid: 'google-site-verification', name: 'google-site-verification', content: 'HlB1DrFwoD4TJIXIL4TEKOWLIPrHj1szS-U2mW4dcrk' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
