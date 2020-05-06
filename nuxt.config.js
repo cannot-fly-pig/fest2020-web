@@ -42,6 +42,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+		{ src: "@/plugins/plugin.js", mode: "client" }
   ],
   /*
   ** Nuxt.js dev-modules
@@ -73,7 +74,7 @@ export default {
     }
   },
 	server: {
-    port: 3000, // デフォルト: 3000
-    host: 'localhost' // デフォルト: localhost
+    port: 8000, // デフォルト: 3000
+    host: '192.168.1.11' // デフォルト: localhost
   }
 }
