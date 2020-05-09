@@ -116,7 +116,7 @@
 		flex-direction: column;
 	}
 
-	.wrap-notice > h1 {
+	.wrap-notice > h2 {
 		margin-bottom: 1rem;
 		font-size: 3rem;
 		font-weight: 900;
@@ -140,7 +140,7 @@
 		margin-bottom: 10%;
 	}
 
-	.wrap-concept > h1 {
+	.wrap-concept > h2 {
 		margin-bottom: 1rem;
 		font-size: 3rem;
 		font-weight: 900;
