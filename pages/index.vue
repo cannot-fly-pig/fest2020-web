@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <main class="container">
 
 		<section class="wrap-image">
 			<img src="@/assets/logo/vi_published_t_13.svg" alt="ロゴ画像" class="logo-image-phone">
@@ -22,7 +22,7 @@
 		<!--
 		<section class="wrap-count">
 			<div class="count">
-				<h1 class="count-made">第74回灘校文化祭開催まで</h1>
+				<h2 class="count-made">第74回灘校文化祭開催まで</h2>
 				<div class="count-suji">
 					あと &nbsp;
 					<img :src="count10" alt="10の位" class="count-image">
@@ -36,7 +36,7 @@
 		</section>
 		-->
 		<section class="wrap-notice">
-			<h1 class="notice-h1">お知らせ</h1>
+			<h2 class="notice-h2">お知らせ</h2>
 			<p>
 				この度、5月2日～5月3日に開催を予定して<span class="text">おりました</span><br>
 				第74回灘校文化祭 “vivid” の開催中止を決定<span class="text">いたしました。</span><br>
@@ -45,7 +45,7 @@
 		</section>
 
 		<section class="wrap-concept">
-			<h1 class="concept-h1">Concept</h1>
+			<h2 class="concept-h2">Concept</h2>
 			<p>
 			“vivid” という言葉には、「生き生きとした」という意味が<span class="text">あります</span><br>
 			活動する生徒やご来場になる皆さんなど、全ての人にとって活力のあふれた文化祭になることを<span class="text">願ったテーマです</span><br>
@@ -138,7 +138,7 @@
 			</div>
 		</section>
 		-->
-  </div>
+  </main>
 </template>
 
 <script>
