@@ -74,7 +74,7 @@ export default {
     }
   },
 	server: {
-    port: 8000, // デフォルト: 3000
-    host: '192.168.1.11' // デフォルト: localhost
+    port: 3000, // デフォルト: 3000
+    host: 'localhost' // デフォルト: localhost
   }
 }
