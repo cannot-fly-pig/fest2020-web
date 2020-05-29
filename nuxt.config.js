@@ -52,8 +52,15 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-		"@nuxtjs/sitemap"
+		"@nuxtjs/sitemap",
+		"@nuxtjs/axios",
+		"@nuxtjs/proxy",
   ],
+	axios: {
+	},
+	proxy: {
+		"/api": "http://localhost:8000"
+	},
 	/*
    ** Generate sitemap.xml
 	*/
@@ -75,5 +82,24 @@ export default {
 	server: {
     port: 3000, // デフォルト: 3000
     host: 'localhost' // デフォルト: localhost
-  }
+  },
+	router: {
+		routes: [
+			{
+				name: "index",
+				path: "/",
+				component: "pages/index.vue"
+			},
+			{
+				name: "news-list",
+				path: "/news/list",
+				component: "pages/news/list.vue"
+			},
+			{
+				name: "article",
+				path: "/news/article/:id?",
+				component: "pages/news/article/_id.vue"
+			}
+		]
+	}
 }
